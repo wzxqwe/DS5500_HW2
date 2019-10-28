@@ -10,7 +10,9 @@ For Nick Tyler’s visualization project. (Link here). This visualization is gen
 
 Problem 4
 
-As there are not too many features and data points, we can use a simple linear regression to fit the model. We can first fit without any transformation on Life Expectancy ~ GDP + Time; From the residual plot (in ipynb) we can see there is a need for transformation of gdp data, so we then fit model on Life ~ log(GDP) + Time. Then result seems better:
+As there are not too many features and data points, we can use a simple linear regression to fit the model. We can first fit without any transformation on Life Expectancy ~ GDP + Time; From the residual plot 
+![alt text](https://github.com/wzxqwe/DS5500_HW2/blob/master/output_10_1.png)
+we can see there is a need for transformation of gdp data, so we then fit model on Life ~ log(GDP) + Time. Then result seems better:
 
  For this linear model we get a mse of 29 and R score of 0.703.
 Regarding time’s effect, we see the coefficient of time is 0.18 and significant, which implies time has a positive effect on life expectancy.
