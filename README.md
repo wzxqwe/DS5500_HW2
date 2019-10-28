@@ -1,8 +1,15 @@
 # DS5500_HW2
 please find all plots and codes for HW2 at https://github.com/wzxqwe/DS5500_HW2/blob/master/5500%20HW2.md
 
+Problem 2
+For Manvita Markala's visualization.(Link). This visualization effectively show us the distribution of income across countries and also the trend of income’s growth by time. Mine is similar to this one, as we both used static line plot and denote different regions by color. I like the plot in which the author also make a visualization on countries level, which provide additional information, although it’s kind of hard to read those large number of lines in detail. Overall, I think the visualization is effective and easy to interpret.
+
+Problem 3
+
+For Nick Tyler’s visualization project. (Link here). This visualization is generated in R but is very similar to the one before and mine which are from python. We both use static line plots and the idea are pretty much the same. One thing to notice is Noah also add a bar plot to visualize distribution across region, which I think is a good idea as bar plot is easier to interpret as it has steady scale as measurement. The ordering of bars also provides an easy interpretation of the rank of incomes. Overall, I think the visualization is effective and easy to interpret.
 
 Problem 4
+
 As there are not too many features and data points, we can use a simple linear regression to fit the model. We can first fit without any transformation on Life Expectancy ~ GDP + Time; From the residual plot (in ipynb) we can see there is a need for transformation of gdp data, so we then fit model on Life ~ log(GDP) + Time. Then result seems better:
 
  For this linear model we get a mse of 29 and R score of 0.703.
