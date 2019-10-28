@@ -17,6 +17,7 @@ As there are not too many features and data points, we can use a simple linear r
 ![alt text](https://github.com/wzxqwe/DS5500_HW2/blob/master/output_11_1.png)
 
 we can see there is a need for transformation of gdp data, so we then fit model on Life ~ log(GDP) + Time. Then result seems better:
+
 ![alt text](https://github.com/wzxqwe/DS5500_HW2/blob/master/output_12_1.png)
 
 ![alt text](https://github.com/wzxqwe/DS5500_HW2/blob/master/output_13_1.png)
@@ -37,8 +38,8 @@ From the model fitting plot and residual plot:
 
 we clearly see it’s not randomly distributed and we need transformation of data, so we then fit model on Mortality ~ log(GDP) + Time. Then result is better.
 
-https://github.com/wzxqwe/DS5500_HW2/blob/master/output_25_1.png
+![alt text](https://github.com/wzxqwe/DS5500_HW2/blob/master/output_25_1.png)
 
-https://github.com/wzxqwe/DS5500_HW2/blob/master/output_26_1.png
+![alt text](https://github.com/wzxqwe/DS5500_HW2/blob/master/output_26_1.png)
 
 We see the residual is still not randomly distributed and there is some heteroscedasticity in the data which might need some further transform or add features. The mse is 108 and Adj Rscore is 0.705. However, to keep model simple and focus on relation between mortality and GDP we will use this model. Regarding time, now time has a negative coefficient of -0.48, which suggest time has a negative effect on children mortality.
