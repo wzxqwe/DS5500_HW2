@@ -12,11 +12,11 @@ Problem 4
 
 As there are not too many features and data points, we can use a simple linear regression to fit the model. We can first fit without any transformation on Life Expectancy ~ GDP + Time; From the prediction plot and residual plot 
 ![alt text](https://github.com/wzxqwe/DS5500_HW2/blob/master/output_10_1.png)
-https://github.com/wzxqwe/DS5500_HW2/blob/master/output_11_1.png
+![alt text](https://github.com/wzxqwe/DS5500_HW2/blob/master/output_11_1.png)
 
 we can see there is a need for transformation of gdp data, so we then fit model on Life ~ log(GDP) + Time. Then result seems better:
-https://github.com/wzxqwe/DS5500_HW2/blob/master/output_12_1.png
-https://github.com/wzxqwe/DS5500_HW2/blob/master/output_13_1.png
+![alt text](https://github.com/wzxqwe/DS5500_HW2/blob/master/output_12_1.png)
+![alt text](https://github.com/wzxqwe/DS5500_HW2/blob/master/output_13_1.png)
 For this linear model we get a mse of 29 and R score of 0.703.
 Regarding time’s effect, we see the coefficient of time is 0.18 and significant, which implies time has a positive effect on life expectancy.
 
@@ -26,8 +26,8 @@ Problem 5
 
 For problem 5, we also use a simple linear regression to fit the model. We can first fit without any transformation on Children Mortality ~ GDP + Time; 
 From the model fitting plot and residual plot:
-https://github.com/wzxqwe/DS5500_HW2/blob/master/output_18_1.png
-https://github.com/wzxqwe/DS5500_HW2/blob/master/output_19_1.png
+![alt text](https://github.com/wzxqwe/DS5500_HW2/blob/master/output_18_1.png)
+![alt text](https://github.com/wzxqwe/DS5500_HW2/blob/master/output_19_1.png)
 
 we clearly see it’s not randomly distributed and we need transformation of data, so we then fit model on Mortality ~ log(GDP) + Time. Then result is better. 
 https://github.com/wzxqwe/DS5500_HW2/blob/master/output_25_1.png
