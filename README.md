@@ -1,5 +1,5 @@
 # DS5500_HW2
-please find all plots and codes for HW2 at https://github.com/wzxqwe/DS5500_HW2/blob/master/5500%20HW2.md
+please find all plots, regression model statstics, and codes for HW2 at https://github.com/wzxqwe/DS5500_HW2/blob/master/5500%20HW2.md
 
 Problem 2
 For Manvita Markala's visualization.(Link). This visualization effectively show us the distribution of income across countries and also the trend of income’s growth by time. Mine is similar to this one, as we both used static line plot and denote different regions by color. I like the plot in which the author also make a visualization on countries level, which provide additional information, although it’s kind of hard to read those large number of lines in detail. Overall, I think the visualization is effective and easy to interpret.
